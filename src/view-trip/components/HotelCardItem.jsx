@@ -9,7 +9,7 @@ function HotelCardItem({ hotel }) {
     >
       <div className="hover:scale-105 transition-all cursor-pointer">
         <img
-          src={hotel?.imageUrl || "/fallback.jpg"}
+          src={hotel?.imageUrl || "/placeholder.svg"}
           alt={hotel?.hotelName}
           className="rounded-xl w-full h-40 object-cover"
         />
